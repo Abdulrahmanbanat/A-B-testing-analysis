@@ -5,7 +5,15 @@
 This project analyzes an A/B test to evaluate whether a **new webpage design** leads to higher conversion rates compared to the **existing (old) page**. The goal is to determine — using statistical methods — whether any observed difference in conversions is statistically significant or due to random variation.
 
 ---
+## 📂 Dataset Source
 
+The dataset used in this project is publicly available on Kaggle:
+
+[AB Testing Dataset by ZhangLuyuan](https://www.kaggle.com/datasets/zhangluyuan/ab-testing)
+
+Please refer to the original source for more information and licensing terms.
+
+---
 ## 📁 Dataset Description
 
 The dataset includes the following features:
