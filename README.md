@@ -135,4 +135,4 @@ Based on this analysis:
 
 ## 🔗 Project Goal Summary
 
-This notebook demonstrates a **basic A/B testing pipeline** using Python, from data cleaning to hypothesis testing and interpretation. It is a simple and clear example suitable for GitHub or a portfolio project.
+This notebook demonstrates a **basic A/B testing pipeline** using Python, from data cleaning to hypothesis testing and interpretation.
