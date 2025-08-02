@@ -1,11 +1,11 @@
-# 📊 A/B Testing Analysis: Old Page vs New Page
+# A/B Testing Analysis: Old Page vs New Page
 
-## 📝 Project Overview
+## Project Overview
 
 This project analyzes an A/B test to evaluate whether a **new webpage design** leads to higher conversion rates compared to the **existing (old) page**. The goal is to determine — using statistical methods — whether any observed difference in conversions is statistically significant or due to random variation.
 
 ---
-## 📂 Dataset Source
+## Dataset Source
 
 The dataset used in this project is publicly available on Kaggle:
 
@@ -14,7 +14,7 @@ The dataset used in this project is publicly available on Kaggle:
 Please refer to the original source for more information and licensing terms.
 
 ---
-## 📁 Dataset Description
+## Dataset Description
 
 The dataset includes the following features:
 
@@ -26,7 +26,7 @@ The dataset includes the following features:
 
 ---
 
-## 🧹 Data Cleaning Steps
+## Data Cleaning Steps
 
 - Renamed column `group` to `group_type` for clarity.
 - Dropped the `timestamp` column.
@@ -37,7 +37,7 @@ The dataset includes the following features:
 
 ---
 
-## 📈 Conversion Rate Analysis
+## Conversion Rate Analysis
 
 After cleaning, we calculated the conversion rate for each group:
 
@@ -48,15 +48,15 @@ A basic comparison showed a slightly higher conversion rate in the control group
 
 ---
 
-## 📊 Visualization
+## Visualization
 
 We plotted the conversion rates using bar plots to visualize the difference between the two groups. The visual confirmed that the old page had a marginally higher conversion rate.
 
 ---
 
-## 🧪 Hypothesis Testing
+## Hypothesis Testing
 
-### 🎯 Objective
+### Objective
 
 Determine if the difference in conversion rates between the control and treatment groups is **statistically significant**.
 
@@ -68,9 +68,9 @@ There **is a difference** in conversion rates between the two groups.
 
 ---
 
-## 🧠 Why Use a t-test and 1000 Sample Size?
+## Why Use a t-test and 1000 Sample Size?
 
-### 📌 Why Use a t-test?
+### Why Use a t-test?
 
 #### Statistical Foundation:
 - We're comparing the **means of two independent groups**.
@@ -89,7 +89,7 @@ There **is a difference** in conversion rates between the two groups.
 
 ---
 
-### 🎯 Why 1000 Samples per Group?
+### Why 1000 Samples per Group?
 
 #### Power & Simplicity:
 - Full dataset is large, which may lead to detecting **tiny, insignificant differences**.
@@ -105,18 +105,18 @@ There **is a difference** in conversion rates between the two groups.
 
 ---
 
-## 📊 T-test Results
+## T-test Results
 
 - **t-statistic**: -0.56  
 - **p-value**: 0.57  
 
-### ✅ Interpretation:
+### Interpretation:
 - p-value > 0.05 → **Fail to reject the null hypothesis**.
 - No statistically significant difference in conversion rates between the control and treatment groups.
 
 ---
 
-## 🧩 Conclusion
+## Conclusion
 
 Based on this analysis:
 
@@ -125,7 +125,7 @@ Based on this analysis:
 
 ---
 
-## 💡 Next Steps (Optional for Further Analysis)
+## Next Steps (Optional for Further Analysis)
 
 - Run the test with a **larger sample size** to detect smaller effects.
 - Use **Bayesian A/B testing** for more probabilistic insight.
@@ -133,6 +133,6 @@ Based on this analysis:
 
 ---
 
-## 🔗 Project Goal Summary
+## Project Goal Summary
 
 This notebook demonstrates a **basic A/B testing pipeline** using Python, from data cleaning to hypothesis testing and interpretation.
